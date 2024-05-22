@@ -56,10 +56,10 @@ fun MainScreen() {
             horizontalArrangement = Arrangement.SpaceEvenly
         ) {
             Button(onClick = { selectedScreen = "簡介" }) {
-                Text("顯示簡介")
+                Text("顯示簡介喔")
             }
             Button(onClick = { selectedScreen = "主要機構" }) {
-                Text("顯示主要機構")
+                Text("顯示主要機構喔")
             }
         }
 

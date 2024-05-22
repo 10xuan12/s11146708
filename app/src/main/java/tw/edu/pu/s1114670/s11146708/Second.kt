@@ -18,7 +18,7 @@ fun IntroductionScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "嘿嘿我是簡介",
+            text = "嘿我是簡介",
             color = Color.Blue
         )
     }
@@ -32,7 +32,7 @@ fun OrganizationScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "嘿嘿我是主要機構",
+            text = "嘿我是主要機構",
             color = Color.Red
         )
     }
