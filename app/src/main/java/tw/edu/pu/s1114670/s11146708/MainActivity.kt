@@ -51,6 +51,7 @@ fun MainScreen() {
             .fillMaxSize()
             .padding(16.dp)
     ) {
+        TopImage()
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly
@@ -129,7 +130,17 @@ fun MainScreen() {
         }
     }
 }
-
+@Composable
+fun TopImage() {
+    Image(
+        painter = painterResource(id = R.drawable.maria),
+        contentDescription = null,
+        modifier = Modifier
+            .width(150.dp)
+            .height(100.dp),
+        contentScale = ContentScale.Fit
+    )
+}
 @Preview(showBackground = true)
 @Composable
 fun MainScreenPreview() {
